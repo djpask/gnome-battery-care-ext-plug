@@ -1,4 +1,5 @@
-# GNOME Battery Notifier
+# GNOME battery case using an external plug
+v0.1 - just an initial tentative
 
 GNOME Battery Notifier è un'applicazione desktop progettata per prolungare la vita della batteria di un notebook, qualora il firmware del bios non preveda una funzionalità specifiche che possa essere sfruttata da tool quali TLP.
 In tal caso, questo progetto offre un workarond avvalendosi di uno smart plug esterno in grado di ricevere delle chiamate REST sulla stessa rete del notebook: quando il livello di carica della batteria supera una determinata soglia (di base il 75%), appare una notifica e lo smart plug viene disattivato. Quando la batteria, scaricandosi, raggiunge il 50% di carica, lo smart plug viene riattivato.
